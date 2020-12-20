@@ -1,30 +1,15 @@
-# client
+# 博客前端
 
-> A Vue.js project
+## 配置方法
 
-## Build Setup
+首先需要安装npm的镜像文件
 
-``` bash
-# install dependencies
-npm install
+`npm i -g cnpm --registry=https://registry.npm.taobao.org`
 
-# serve with hot reload at localhost:8080
-npm run dev
+然后下载前端文件夹，安装依赖项
 
-# build for production with minification
-npm run build
+`cnpm install`
 
-# build for production and view the bundle analyzer report
-npm run build --report
+在8080端口打开前端
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+`cnpm run dev`
